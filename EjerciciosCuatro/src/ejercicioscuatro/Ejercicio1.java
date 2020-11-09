@@ -30,13 +30,16 @@ public class Ejercicio1 {
        System.out.println("Ingrese la base");
        //6.Leer base
        base = entrada.nextDouble();
-       
+       //7. Escribir "Ingrese la altura"
        System.out.println("Ingrese la altura");
+       //8. Leer altura
        altura= entrada.nextDouble();
        // proceso
+       //9. areaTriangulo <-- base * altura/2
        areaTriangulo = (base * altura)/2;
        // salida
+       //10. Escribir "El area del triangulo es:" + areaTriangulo
        System.out.printf("El area del triangulo es: %.2f metros3\n",
                areaTriangulo);
-    }
+    }//11. Fin
 }
